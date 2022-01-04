@@ -9,7 +9,7 @@ var $link;
         ob_start();
   // Get the main settings from the array we just loaded
         $host = 'us-cdbr-east-05.cleardb.net';
-        $db = 'mysql://bedcae9a9caadd:650a431e@us-cdbr-east-05.cleardb.net/heroku_7325063326eb664?reconnect=true';
+        $db = 'heroku_7325063326eb664';
         $user = 'bedcae9a9caadd';
         $pass = '650a431e';
 
@@ -26,7 +26,7 @@ function DbConnector(){
 
         // Get the main settings from the array we just loaded
          $host = 'us-cdbr-east-05.cleardb.net';
-        $db = 'mysql://bedcae9a9caadd:650a431e@us-cdbr-east-05.cleardb.net/heroku_7325063326eb664?reconnect=true';
+       $db = 'heroku_7325063326eb664';
         $user = 'bedcae9a9caadd';
         $pass = '650a431e';
 
