@@ -19,7 +19,7 @@
                             <div class="block-content collapse in">
                                 <div class="span12">
 									<form action="delete_class.php" method="post">
-  									<table cellpadding="0" cellspacing="0" border="0" class="table" id="example">
+  									<table cellpadding="0" cellspacing="0" class="table" id="example">
 										<a data-toggle="modal" href="#class_delete" id="delete"  class="btn btn-danger" name=""><i class="icon-trash icon-large"></i></a>
 													<?php include('modal_delete.php'); ?>
 									<thead>
