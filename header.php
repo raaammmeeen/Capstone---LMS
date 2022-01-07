@@ -27,7 +27,7 @@
 	     <link rel="shortcut icon" type="image/png" href="LOGO.png">
  	<style>
 		body{
-       		 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/images/bsusc 1.jpeg");
+       		 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/images/bsusc 1.png");
     		}
     	
     		.bsutitle{
