@@ -44,8 +44,8 @@
 													<td><?php echo $row['subject_title']; ?></td>
 												
 													<td width="30"><a href="edit_subject.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i> </a></td>
-													<td width="30"><a href="edit_subject.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i> </a></td>
-										</tr>
+													<td width="50"><a href="edit_subject.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i> </a></td>
+											</tr>
 											
 											<?php } ?>   
                               
