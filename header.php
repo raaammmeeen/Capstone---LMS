@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <title>BSU - SC Homepage</title>
-
-     <style>
-		body{
-       		 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/images/bsusc 1.jpeg");
-    	}
-    	
-    .bsutitle{
-        color: white;
-        margin-left: 20px    ;
-
-    }
-	
-		</style>
-<link rel="shortcut icon" type="image/png" href="LOGO.png">
+	   
 		<meta charset="UTF-8">
-        <!-- Bootstrap -->
+        			<!-- Bootstrap -->
 				<link href="admin/images/favicon.ico" rel="icon" type="image">
 				<link href="admin/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
 				<link href="admin/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen"/>
@@ -35,7 +21,22 @@
 				<link href="admin/vendors/jGrowl/jquery.jgrowl.css" rel="stylesheet" media="screen"/>
 				<!-- wysiwug  -->
 				<link rel="stylesheet" type="text/css" href="admin/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css"/>
-		<script src="admin/vendors/jquery-1.9.1.min.js"></script>
-        <script src="admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+				<script src="admin/vendors/jquery-1.9.1.min.js"></script>
+				<script src="admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        			<title>BSU SC - Homepage</title>
+	     <link rel="shortcut icon" type="image/png" href="LOGO.png">
+ 	<style>
+		body{
+       		 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/images/bsusc 1.jpeg");
+    		}
+    	
+    		.bsutitle{
+        		color: white;
+        		margin-left: 20px    ;
+
+    		}
+	
+	</style>
+		
     </head>
 <?php include('admin/dbcon.php'); ?>
