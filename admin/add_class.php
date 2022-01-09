@@ -35,7 +35,7 @@ $count = mysqli_num_rows($query);
 
 if ($count > 0){ ?>
 <script>
-alert('Date Already Exist');
+alert('Class Already Exist');
 </script>
 <?php
 }else{

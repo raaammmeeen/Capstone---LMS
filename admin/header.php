@@ -4,7 +4,7 @@
         <title>Learning Management System</title>
 		<style>
 		body{
-       		 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("bsusc 1.jpeg");
+       		 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/bg.png");
     	}
     .bsutitle{
         color: white;
@@ -13,7 +13,7 @@
     }
 	
 		</style>
-		<link rel="shortcut icon" type="image/png" href="LOGO.png">
+		<link rel="shortcut icon" type="image/png" href="admin/LOGO.png">
 		
 		
 		
