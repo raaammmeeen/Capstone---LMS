@@ -1,8 +1,8 @@
 body{
-     background: -moz-linear-gradient(center top , #FFFFFF, #D3D8E8) repeat fixed 0 0 rgba(0, 0, 0, 0);
+     background: -moz-linear-gradient(center top , #FFFFFF, #D3D8E8) repeat fixed 0 0 rgba(0, 0, 0, 0),url("admin/images/bsuscbg.png");;
 }
 body { 
-	background: -moz-linear-gradient(center top , #FFFFFF, #D3D8E8) repeat fixed 0 0 rgba(0, 0, 0, 0);
+	background: -moz-linear-gradient(center top , #FFFFFF, #D3D8E8) repeat fixed 0 0 rgba(0, 0, 0, 0),url("admin/images/bsuscbg.png");;
   -webkit-background-size: cover !important; 
   -moz-background-size: cover !important; 
   -o-background-size: cover !important; 

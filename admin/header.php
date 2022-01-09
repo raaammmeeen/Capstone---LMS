@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <title>Learning Management System</title>
+        <title>BSU-SC -Learning Management System</title>
 		<style>
 		body{
 			background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/bsuscbg.png");
@@ -13,7 +13,7 @@
     }
 	
 		</style>
-		<link rel="shortcut icon" type="image/png" href="admin/LOGO.png">
+		<link rel="shortcut icon" type="image/png" href="images/LOGO.png">
 		
 		
 		
