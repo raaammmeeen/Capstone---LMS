@@ -39,7 +39,7 @@
 										
 										where teacher_class_id = '$get_id'")or die(mysqli_error());
 										$row = mysqli_fetch_array($query);
-										$id = isset($row['teacher_class_id']);
+										$id = $row['teacher_class_id'];
 				
 										?>
 										
@@ -53,7 +53,7 @@
 											LEFT JOIN class_subject_overview ON class_subject_overview.teacher_class_id = teacher_class.teacher_class_id
 											where class_subject_overview.teacher_class_id = '$get_id'")or die(mysqli_error());
 											$row_subject = mysqli_fetch_array($query); ?>
-										
+								
                                 </div>
                             </div>
                         </div>

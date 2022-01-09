@@ -4,7 +4,7 @@
         <title>Learning Management System</title>
 		<style>
 		body{
-       		 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/bg.png");
+			background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/bsuscbg.png");
     	}
     .bsutitle{
         color: white;
