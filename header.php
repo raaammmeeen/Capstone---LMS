@@ -25,6 +25,7 @@
 				<script src="admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         			<title>BSU SC - Homepage</title>
 	     <link rel="shortcut icon" type="image/png" href="LOGO.png">
+		 
  	<style>
 		body{
        		 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/images/bsuscbg.png");

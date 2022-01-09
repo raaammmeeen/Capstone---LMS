@@ -4,7 +4,10 @@
         <title>BSU SC LMS</title>
         <style>
 		body{
-       		 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/images/bsusc 1.jpeg");
+       		 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("admin/images/bsuscbg.png");
+                
+            background-repeat: no-repeat;
+            background-attachment: fixed;
     	}
     .bsutitle{
         color: white;
@@ -13,7 +16,7 @@
     }
 	
 		</style>
-        <link rel="shortcut icon" type="image/png" href="LOGO.jpg">
+        <link rel="shortcut icon" type="image/png" href="LOGO.png">
 		<meta name="description" content="Learning Management System">
 		
 		<meta charset="UTF-8">

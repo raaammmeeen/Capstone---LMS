@@ -15,11 +15,11 @@
 							<hr>
                                 <div class="span3">
 										<center>
-										<img id="developers" src="admin/images/Maricar.jpeg" class="img-circle">
+										<img id="developers" src="admin/images/Maricar.png" class="img-circle">
 										<hr>
 										<p>Name: Maricar B. Reyes</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
-										<p>Email: maricarreyes@gmail.com</p>
+										<p>Email: maricar.reyes.b@bulsu.edu.ph</p>
 										<p>Position: Programmer</p>
 										</center>
 								</div>
@@ -29,13 +29,13 @@
 								<hr>
 										<p>Name: Denniese Sas</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
-										<p>Email: denniesesas@gmail.com</p>
+										<p>Email: denniese.sas.x@bulsu.edu.ph</p>
 										<p>Position: Documentation</p>
 								</center>
 								</div>
                                 <div class="span3">
 															<center>
-								<img id="developers" src="admin/images/Alliah.png" class="img-circle">
+								<img id="developers" src="admin/images/Alliah.jpg" class="img-circle">
 								<hr>
 										<p>Name: Alliah Jane Ramos</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>

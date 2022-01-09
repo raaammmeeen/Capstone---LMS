@@ -10,7 +10,7 @@
 								<div class="navbar navbar-inner block-header">
 									<div id="" class="muted pull-right"><a href="index.php"><i class="icon-arrow-left"></i> Back</a></div>
 								</div>
-                            <div class="block-content collapse in">
+                            
                                 <div class="span12">
 
 										<?php
@@ -18,9 +18,8 @@
 											$mission_row = mysqli_fetch_array($mission_query);
 											echo $mission_row['content'];
 										?>
-								<hr>
+								
 
-                                </div>
                             </div>
                         </div>
                         <!-- /block -->
