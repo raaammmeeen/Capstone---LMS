@@ -72,7 +72,7 @@
 										<?php if ($grade == ""){ ?>
 											<a  data-placement="bottom" title="Take This Quiz" id="<?php echo $id; ?>Download" href="take_test.php<?php echo '?id='.$get_id ?>&<?php echo 'class_quiz_id='.$id; ?>&<?php echo 'test=ok' ?>&<?php echo 'quiz_id='.$quiz_id; ?>&<?php echo 'quiz_time='.$quiz_time;	 ?>"><i class="icon-check icon-large"></i> Take This Quiz</a>
 										<?php }else{ ?>
-										<b>Already Taken Score <?php echo $grade; ?></b>
+										<b><?php echo $grade; ?></b>
 										<?php } ?>
 										</td>            
 														<script type="text/javascript">

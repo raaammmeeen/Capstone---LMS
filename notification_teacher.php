@@ -49,6 +49,7 @@
 					LEFT JOIN assignment on assignment.assignment_id = teacher_notification.assignment_id 
 					LEFT JOIN class on teacher_class.class_id = class.class_id
 					LEFT JOIN subject on teacher_class.subject_id = subject.subject_id
+					LEFT JOIN student on student.student_class_quiz = student.class_quiz_id
 					where teacher_class.teacher_id = '$session_id'  order by  teacher_notification.date_of_notification DESC
 					")or die(mysqli_error());
 					$count = mysqli_num_rows($query);
