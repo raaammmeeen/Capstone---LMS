@@ -15,7 +15,7 @@
 							<hr>
                                 <div class="span3">
 										<center>
-										<img id="developers" src="admin/images/Ram.jpg" class="img-circle">
+										<img id="developers" src="admin/images/Maricar.png" class="img-circle">
 										<hr>
 										<p>Name: Maricar B. Reyes</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
@@ -25,7 +25,7 @@
 								</div>
                                 <div class="span3">
 															<center>
-								<img id="developers" src="admin/images/Den.png" class="img-circle">
+								<img id="developers" src="admin/images/Denniese.png" class="img-circle">
 								<hr>
 										<p>Name: Denniese Sas</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
@@ -39,29 +39,29 @@
 								<hr>
 										<p>Name: Alliah Jane Ramos</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
-										<p>Email: alliahjane.ramos.r@bulsu.edu.ph</p>
-										<p>Position: Programmer</p>
+										<p>Email: alliahjane@gmail.com</p>
+										<p>Position: Documentation</p>
 								</center>
 								</div>
 
                                 <div class="span3">
 								<center>
-								<img id="developers" src="admin/images/Jerald.png" class="img-circle">
+								<img id="developers" src="admin/images/Jerald.jpeg" class="img-circle">
 								<hr>
 										<p>Name: Jerald Alarcio Olivas</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
-										<p>Email: jerald.olivas.a@bulsu.edu.ph</p>
-										<p>Position: Programmer</p>
+										<p>Email: jeraldolivas@gmail.com</p>
+										<p>Position: Documentation</p>
 								</center>
 								</div>
 
 								<div class="span3">
 								<center>
-								<img id="developers" src="admin/images/Vincent.jpg" class="img-circle">
+								<img id="developers" src="admin/images/Kevin.jpeg" class="img-circle">
 								<hr>
 										<p>Name: Vincent Quanico</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
-										<p>Email: vincent.quanico.g@bulsu.edu.ph</p>
+										<p>Email: vincentquanico@gmail.com</p>
 										<p>Position: Documentation</p>
 								</center>
 								</div>

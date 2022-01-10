@@ -18,14 +18,13 @@
 										?>
 				
 					     <ul class="breadcrumb">
-							<li><a href="#"><?php echo $class_row["class_name"]; ?></a> <span class="divider">/</span></li>
-							<li><a href="#"><?php echo $class_row["subject_code"]; ?></a> <span class="divider">/</span></li>
+							<li><a href="#"><?php echo $class_row['class_name']; ?></a> <span class="divider">/</span></li>
+							<li><a href="#"><?php echo $class_row['subject_code']; ?></a> <span class="divider">/</span></li>
 							<li><a href="#"><b>Announcements</b></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
                         <!-- block -->
-						asdasd
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
                                 <div id="" class="muted pull-left"></div>
@@ -39,7 +38,7 @@
 								$count = mysqli_num_rows($query_announcement);
 								if ($count > 0){
 								 while($row = mysqli_fetch_array($query_announcement)){
-								 $id = $row["teacher_class_announcements_id"];
+								 $id = $row['teacher_class_announcements_id'];
 								 ?>
 											<div class="post"  id="del<?php echo $id; ?>">
 											<?php echo $row['content']; ?>

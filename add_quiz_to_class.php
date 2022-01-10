@@ -93,7 +93,7 @@
 										<?php
 										if (isset($_POST['save'])){
 											$quiz_id = $_POST['quiz_id'];
-											$time = $_POST['time'];
+											$time = $_POST['time'] * 60;
 											$id=$_POST['selector'];
 											
 													$name_notification  = 'Add Practice Quiz file';
