@@ -13,9 +13,8 @@ if($quiz_time <= $rowp['quiz_time'] AND $quiz_time > 0){
 	/* $_SESSION['take_exam'] = 'continue'; */
 
 	echo $quiz_time."<br>";
-	$init = $quiz_time * 60;
-	//$init = 1000;
-	$minutes = floor(($init / 60));
+	$init = $quiz_time;
+	$minutes = floor(($init / 60) % 60);
 	$seconds = $init % 60;
 	if($init > 59){		
 		echo "$minutes minutes and $seconds seconds";
