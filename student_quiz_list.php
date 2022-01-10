@@ -68,7 +68,7 @@
 												<tr>
 													<td><?php echo $row['quiz_title']; ?></td>
 													<td><?php echo $row['quiz_description']; ?></td>
-													<td><?php echo $row['quiz_time'] * 60; ?></td>
+													<td><?php echo $row['quiz_time']; ?></td>
 													<td width="200">
 														<?php if ($grade == "") { ?>
 															<a data-placement="bottom" title="Take This Quiz" id="<?php echo $id; ?>Download" href="take_test.php<?php echo '?id=' . $get_id ?>&<?php echo 'class_quiz_id=' . $id; ?>&<?php echo 'test=ok' ?>&<?php echo 'quiz_id=' . $quiz_id; ?>&<?php echo 'quiz_time=' . $quiz_time;	 ?>"><i class="icon-check icon-large"></i> Take This Quiz</a>
