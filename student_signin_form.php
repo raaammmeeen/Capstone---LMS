@@ -40,11 +40,11 @@
 						success: function(html){
 						if(html=='true')
 						{
-						$.jGrowl("Welcome to CHMSC Learning Management System", { header: 'Sign up Success' });
+						$.jGrowl("Welcome to BSU-SC Learning Management System", { header: 'Sign up Success' });
 						var delay = 2000;
 							setTimeout(function(){ window.location = 'dashboard_student.php'  }, delay);  
 						}else if(html=='false'){
-							$.jGrowl("student does not found in the database Please Sure to Check Your ID Number or Firstname, Lastname and the Section You Belong. ", { header: 'Sign Up Failed' });
+							$.jGrowl("Student does not found in the database Please Sure to Check Your ID Number or Firstname, Lastname and the Section You Belong. ", { header: 'Sign Up Failed' });
 						}
 						}
 						
@@ -53,7 +53,7 @@
 			
 					}else
 						{
-						$.jGrowl("student does not found in the database", { header: 'Sign Up Failed' });
+						$.jGrowl("Student does not found in the database", { header: 'Sign Up Failed' });
 						}
 				});
 			});
