@@ -133,7 +133,7 @@
 			success: function(html){
 			$("#del"+id).fadeOut('slow', function(){ $(this).remove();}); 
 			$('#'+id).modal('hide');
-			$.jGrowl("Your Post is Successfully Deleted", { header: 'Data Delete' });
+			$.jGrowl("Your File is Successfully Deleted", { header: 'Data Delete' });
 		
 			}
 			}); 

@@ -5,7 +5,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-                   <!-- <a class="brand" href="#">Welcome to: M - Learning</a> -->
+                    <a class="brand" href="#">BSU-SC - Learning Management System</a>
 							<div class="nav-collapse collapse">
 								<ul class="nav pull-right">
 												<?php $query= mysqli_query($conn,"select * from teacher where teacher_id = '$session_id'")or die(mysqli_error());
