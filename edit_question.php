@@ -72,7 +72,7 @@
 											<div class="controls">			
 										<div id="opt11">
 <?php
-	$sqlz = mysqli_query($conn,"SELECT * FROM answers WHERE q_id = ".$_GET['edit']."");
+	$sqlz = mysqli_query($conn,"SELECT * FROM answer WHERE quiz_question_id = ".$_GET['id']."");
 	while($rowz = mysqli_fetch_array($sqlz)){
 		if($rowz['choice'] == 'A'){
 			$a = $rowz['value'];

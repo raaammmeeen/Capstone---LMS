@@ -63,7 +63,7 @@
 												<td><?php  echo $row['question_type']; ?></td>
 												<td><?php  echo $row['answer']; ?></td>
 												<td><?php echo $row['date_added']; ?></td>                                                                          
-												<!-- <td width="30"><a href="edit_question.php<?php echo '?id='.$get_id; ?>&<?php echo 'quiz_question_id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i></a></td>                                       -->
+												<td width="30"><a href="edit_question.php<?php echo '?id='.$get_id; ?>&<?php echo 'quiz_question_id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i></a></td>                                      
 										</tr>
 									<?php } ?>
 										</tbody>
