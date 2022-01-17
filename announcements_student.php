@@ -8,7 +8,11 @@
 				<?php include('annoucement_link_student.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
+					  <!-- breadcrumb -->
 				
+									
+						 <!-- end breadcrumb -->
+					 
                         <!-- block -->
 	
                         <div id="block_bg" class="block">
@@ -17,30 +21,7 @@
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
-								 <?php
-								 $query_announcement = mysqli_query($conn,"select * from teacher_class_announcements
-																	where  teacher_class_id = '$get_id' order by date DESC
-																	")or die(mysqli_error());
-								$count = mysqli_num_rows($query_announcement);
-								if ($count > 0){
-								 while($row = mysqli_fetch_array($query_announcement)){
-								 $id = $row["teacher_class_announcements_id"];
-								 ?>
-											<div class="post"  id="del<?php echo $id; ?>">
-											<?php echo $row['content']; ?>
-										
-											<hr>
-											
-										
-											<strong><i class="icon-calendar"></i> <?php echo $row['date']; ?></strong>
-											
-										
-											
-											</div>
-											
-								<?php }}else{ ?>
-								<div class="alert alert-info"><i class="icon-info-sign"></i> No Announcements Found.</div>
-								<?php } ?>
+								
                                 </div>
 								
 							
