@@ -52,7 +52,7 @@
 						url: "upload_save_student.php",
 						data: formData,
 						success: function(html){
-							$.jGrowl("Student Successfully  Added", { header: 'Student Added' });
+							$.jGrowl("File Successfully  Added", { header: 'File Added' });
 							window.location = 'downloadable_student.php<?php echo '?id='.$get_id; ?>';
 						},
 						cache: false,
