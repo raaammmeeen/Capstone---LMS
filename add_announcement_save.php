@@ -10,5 +10,3 @@ include('session.php');
 			mysqli_query($conn,"insert into notification (teacher_class_id,notification,date_of_notification,link) value('$id[$i]','Add Annoucements',NOW(),'announcements_student.php')")or die(mysqli_error());
 		}
 ?>
-
-
