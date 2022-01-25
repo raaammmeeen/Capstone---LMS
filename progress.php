@@ -102,7 +102,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-							    <div id="" class="muted pull-left"><h4> Practice Quiz Progress</h4></div>
+							    <div id="" class="muted pull-left"><h4>Quiz Progress</h4></div>
 							</div>
                             <div class="block-content collapse in">
                                 <div class="span12">
