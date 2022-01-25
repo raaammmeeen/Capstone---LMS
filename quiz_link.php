@@ -9,7 +9,7 @@
 				<li class=""><a href="announcements.php<?php echo '?id='.$get_id; ?>"><i class="icon-chevron-right"></i><i class="icon-info-sign"></i>&nbsp;Announcements</a></li>
 				<li class=""><a href="class_calendar.php<?php echo '?id='.$get_id; ?>"><i class="icon-chevron-right"></i><i class="icon-calendar"></i>&nbsp;Class Calendar</a></li>
 				<li class="active"><a href="class_quiz.php<?php echo '?id='.$get_id; ?>"><i class="icon-chevron-right"></i><i class="icon-list"></i>&nbsp;Quiz</a></li>
-				<li class=""><a href="https://apps.google.com/meet/"><i class="icon-chevron-right"></i><i class="icon-facetime-video"></i>&nbsp;Meet</a></li>
+				<li class=""><a href="https://apps.google.com/meet/" target="_blank"><i class="icon-chevron-right"></i><i class="icon-facetime-video"></i>&nbsp;Meet</a></li>
 			</ul>
 			<?php include('search_other_class.php'); ?>		
 </div>
