@@ -91,7 +91,7 @@
 		<?php
 		if (isset($_POST['save'])){
 		$question = $_POST['question'];
-		$points = $_POST['points'];
+		// $points = $_POST['points'];
 		$type = $_POST['question_tpye'];
 		$answer = $_POST['answer']; 
 		
