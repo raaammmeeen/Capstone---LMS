@@ -48,6 +48,10 @@
 												<th>Description</th>
 												<th>Quiz Time (In Minutes)</th>
 												<th>Score</th>
+
+												<?php 
+												echo "SESSION ID ".$session_id;
+												?>
 											</tr>
 										</thead>
 										<tbody>

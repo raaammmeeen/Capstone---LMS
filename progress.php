@@ -45,8 +45,8 @@
 												</tr>
 												
 										</thead>
-										<tbody>
-											
+										<tbody>					
+	
                               		<?php
 										$query = mysqli_query($conn,"select * FROM student_assignment 
 										LEFT JOIN student on student.student_id  = student_assignment.student_id
