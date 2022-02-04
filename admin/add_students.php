@@ -12,7 +12,7 @@
                                    
                                           <div class="controls">
                                             <select  name="class_id" class="" required>
-                                             	<option></option>
+                                             	<option>Course and Section</option>
 											<?php
 											$cys_query = mysqli_query($conn,"select * from class order by class_name");
 											while($cys_row = mysqli_fetch_array($cys_query)){
@@ -45,15 +45,41 @@
 										
 											<div class="control-group">
                                           <div class="controls">
-												<button name="save" class="btn btn-info"><i class="icon-plus-sign icon-large"></i></button>
-
+												<button name="save" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add</button>
                                           </div>
                                         </div>
                                 </form>
+								</div></div>
+
+								<!--Upload Form-->
+								<?php
+								session_start(); 
+								?>
+								<div class="navbar navbar-inner block-header">
+									<div class="muted pull-left">Import Students</div>
+										</div>
+											<div class="block-content collapse in">
+												<div class="span12">
+											
+												<?php
+													if (isset($_SESSION['message']) && $_SESSION['message'])
+													{
+														printf('<b>%s</b>', $_SESSION['message']);
+														unset($_SESSION['message']);
+													}
+												?>
+												<form method="POST" action="import_data.php" enctype="multipart/form-data">
+													<div class="btn input">
+														<input type="file" name="uploadedFile" />
+													</div>
+													<hr>
+													<button type="submit" class="btn btn-info" name="uploadBtn">Upload</button>
+												</form>
+												</div>
+										</div>
 								</div>
-                            </div>
-                        </div>
                         <!-- /block -->
+						
                     </div>
 					
 			<script>

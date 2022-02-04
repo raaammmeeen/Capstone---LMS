@@ -33,6 +33,7 @@
 										</thead>
 										<tbody>
 												 <?php
+                                         
                                     $teacher_query = mysqli_query($conn,"select * from teacher") or die(mysqli_error());
                                     while ($row = mysqli_fetch_array($teacher_query)) {
                                     $id = $row['teacher_id'];
@@ -53,7 +54,9 @@
 									<td width="120"><a href="edit_teacher.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-check"></i> Activated</a></td>				
 									<?php } ?>
                                 </tr>
-                            <?php } ?>
+                            <?php } 
+                            
+                            ?>
                                
 										</tbody>
 									</table>

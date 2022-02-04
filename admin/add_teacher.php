@@ -46,16 +46,41 @@
 										
 										
 									
-											<div class="control-group">
+											              <div class="control-group">
                                           <div class="controls">
-												<button name="save" class="btn btn-info"><i class="icon-plus-sign icon-large"></i></button>
+												                      <button name="save" class="btn btn-info"><i class="icon-plus-sign icon-large"></i></button>
 
                                           </div>
                                         </div>
                                 </form>
-								</div>
+							              	</div>
                             </div>
-                        </div>
+                            <!--Upload Form-->
+
+                            <div class="navbar navbar-inner block-header">
+                              <div class="muted pull-left">Import Teachers</div>
+                                </div>
+                                  <div class="block-content collapse in">
+                                    <div class="span12">
+                                  
+                                    <?php
+                                      if (isset($_SESSION['message']) && $_SESSION['message'])
+                                      {
+                                        printf('<b>%s</b>', $_SESSION['message']);
+                                        unset($_SESSION['message']);
+                                      }
+                                    ?>
+                                    <form method="POST" action="import_data.php" enctype="multipart/form-data">
+                                      <div class="btn input">
+                                        <input type="file" name="uploadedFile" />
+                                      </div>
+                                      <hr>
+                                      <button type="submit" class="btn btn-info" name="uploadBtn" value="Upload">Upload</button>
+                                    </form>
+                                    </div>
+                                </div>
+                                    </div>
+                                
                         <!-- /block -->
                     </div>
 					
@@ -67,23 +92,23 @@
                                 $lastname = $_POST['lastname'];
                                 $department_id = $_POST['department'];
 								
-								
-								$query = mysqli_query($conn,"select * from teacher where firstname = '$firstname' and lastname = '$lastname' ")or die(mysqli_error());
-								$count = mysqli_num_rows($query);
-								
-								if ($count > 0){ ?>
-								<script>
-								alert('Data Already Exist');
-								</script>
-								<?php
-								}else{
+                                  
+                                  $query = mysqli_query($conn,"select * from teacher where firstname = '$firstname' and lastname = '$lastname' ")or die(mysqli_error());
+                                  $count = mysqli_num_rows($query);
+                                  
+                                  if ($count > 0){ ?>
+                                  <script>
+                                  alert('Data Already Exist');
+                                  </script>
+                                  <?php
+                                  }else{
 
-                                mysqli_query($conn,"insert into teacher (firstname,lastname,location,department_id)
-								values ('$firstname','$lastname','uploads/NO-IMAGE-AVAILABLE.jpg','$department_id')         
-								") or die(mysqli_error()); ?>
-								<script>
-							 	window.location = "teachers.php"; 
-								</script>
-								<?php   }} ?>
-						 
+                                                  mysqli_query($conn,"insert into teacher (firstname,lastname,location,department_id)
+                                  values ('$firstname','$lastname','uploads/NO-IMAGE-AVAILABLE.jpg','$department_id')         
+                                  ") or die(mysqli_error()); ?>
+                                  <script>
+                                  window.location = "teachers.php"; 
+                                  </script>
+                                  <?php   }} ?>
+                              
 						 
