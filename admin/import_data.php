@@ -55,7 +55,7 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
 $_SESSION['message'] = $message;
 
 
-$myfile = fopen("https://admin--lms.herokuapp.com/uploaded_files/".$newFileName, "r") or die("Unable to open file!");
+$myfile = fopen("https://capstone-lms.herokuapp.com/admin/uploads/".$newFileName, "r") or die("Unable to open file!");
 // Output one line until end-of-file
 while(!feof($myfile)) {
   //echo fgets($myfile) . "<br>";
