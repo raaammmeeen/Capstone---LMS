@@ -60,10 +60,10 @@ $get_id = $_GET['id'];
 										</thead>
 										<tbody>
 											
-                              		<?php
+                              		<?php //RIGHT JOIN student on student_id=teacher_class_id
 										$query = mysqli_query($conn,"select * FROM class_quiz 
 										LEFT JOIN quiz on class_quiz.quiz_id = quiz.quiz_id
-										RIGHT JOIN student on student_id=class_quiz_id
+										RIGHT JOIN student on student_id=teacher_class_id
 										where teacher_class_id = '$get_id' order by class_quiz_id DESC ")or die(mysqli_error());
 										while($row = mysqli_fetch_array($query)){
 										$id  = $row['class_quiz_id'];
@@ -73,10 +73,10 @@ $get_id = $_GET['id'];
 										//$query1 = mysqli_query($conn,"select * from student_class_quiz where class_quiz_id = '$id' and student_id = '$session_id'")or die(mysqli_error());
 										$query1 = mysqli_query($conn,"select * from student_class_quiz where class_quiz_id = '$id'")or die(mysqli_error());
 										$row1 = mysqli_fetch_array($query1);
-										$grade = isset($row1['grade']);
+										$grade = $row1['grade'];
 
 									?>          
-										<?php if ($grade ==""){
+										<?php if (false){
 										
 										}else{ ?>	
 										<tr> 
