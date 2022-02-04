@@ -10,9 +10,6 @@
 						<li>
                             <a href="admin_user.php"><i class="icon-chevron-right"></i><i class="icon-user"></i> Admin Users</a>
                         </li>
-                        <li>
-                            <a href="import_data.php"><i class="icon-chevron-right"></i><i class="icon-plus"></i>Import Data</a>
-                        </li>
 						<li>
                             <a href="department.php"><i class="icon-chevron-right"></i><i class="icon-building"></i> Department</a>
                         </li>
