@@ -15,7 +15,7 @@
 							<hr>
                                 <div class="span3">
 										<center>
-										<img id="developers" src="admin/images/editable.png" class="img-circle">
+										<img id="developers" src="admin/images/ram (2).PNG" class="img-circle">
 										<hr>
 										<p>Name: Maricar B. Reyes</p>
 										<p>Address: City of San Jose Del Monte, Bulacan</p>
