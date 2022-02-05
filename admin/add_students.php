@@ -9,10 +9,10 @@
 								<form id="add_student" method="post">
 								
 								        <div class="control-group">
-                                   
+										<label>Course and Department:</label>
                                           <div class="controls">
                                             <select  name="class_id" class="" required>
-                                             	<option>Course and Section</option>
+                                             	<option></option>
 											<?php
 											$cys_query = mysqli_query($conn,"select * from class order by class_name");
 											while($cys_row = mysqli_fetch_array($cys_query)){
