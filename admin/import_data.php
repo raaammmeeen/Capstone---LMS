@@ -31,7 +31,7 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
 
       if(move_uploaded_file($fileTmpPath, $dest_path)) 
       {
-        $message ='File is successfully uploaded.'.$newFileName."";
+        $message ='File is successfully uploaded.';
         
       }
       else 
@@ -71,18 +71,18 @@ fclose($myfile);
 
 
 function insert_data($arr, $conn){
-    $first_name = $arr[0];
-    $last_name = $arr[1];
-    $dept_id = $arr[2];
+  $first_name = $arr[0];
+  $last_name = $arr[1];
+  $dept_id = $arr[2];
 
-    //$sql = "insert into teacher (firstname,lastname,location,department_id) VALUES(".$arr[0].",".$arr[1].","."uploads/NO-IMAGE-AVAILABLE.jpg".",".$arr[2].")";
-    $sql = "insert into teacher (firstname,lastname,location,department_id) VALUES('$first_name','$last_name','uploads/NO-IMAGE-AVAILABLE.jpg','$dept_id');";
-    if ($conn->query($sql) === TRUE) {
-      echo "New record created successfully";
-    } else {
-      echo "Error: " . $sql . "<br>" . $conn->error;
-    }
+  $sql = "insert into student (firstname,lastname,location,department_id) VALUES('$first_name','$last_name','uploads/NO-IMAGE-AVAILABLE.jpg','$dept_id');";
+  if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
 }
+   
 
 
 header("Location: teachers.php");

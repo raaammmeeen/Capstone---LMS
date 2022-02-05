@@ -52,9 +52,6 @@
 								</div></div>
 
 								<!--Upload Form-->
-								<?php
-								session_start(); 
-								?>
 								<div class="navbar navbar-inner block-header">
 									<div class="muted pull-left">Import Students</div>
 										</div>
@@ -68,7 +65,7 @@
 														unset($_SESSION['message']);
 													}
 												?>
-												<form method="POST" action="import_data.php" enctype="multipart/form-data">
+												<form method="POST" action="import_data_student.php" enctype="multipart/form-data">
 													<div class="btn input">
 														<input type="file" name="uploadedFile" />
 													</div>
