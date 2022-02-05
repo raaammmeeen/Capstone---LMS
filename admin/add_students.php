@@ -70,7 +70,7 @@
 														<input type="file" name="uploadedFile" />
 													</div>
 													<hr>
-													<button type="submit" class="btn btn-info" name="uploadBtn">Upload</button>
+													<button type="submit" class="btn btn-info" name="uploadBtn" value="Upload">Upload</button>
 												</form>
 												</div>
 										</div>
