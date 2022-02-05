@@ -73,14 +73,14 @@ fclose($myfile);
 
 function insert_data($arr, $conn){
     $un = $arr[0];
-    $first_name = $arr[1];
-    $last_name = $arr[2];
+    $first_name = $arr[2];
+    $last_name = $arr[1];
     $class_id = $arr[3];
 
    
 
-    mysqli_query($conn,"insert into student (username,lastname,firstname,location,class_id,status)
-    values ('$un','$last_name','$first_name','uploads/NO-IMAGE-AVAILABLE.jpg','$class_id','Unregistered')                                    
+    mysqli_query($conn,"insert into student (username,firstname,lastname,location,class_id,status)
+    values ('$un','$first_name','$last_name','uploads/NO-IMAGE-AVAILABLE.jpg','$class_id','Unregistered')                                    
     ") or die(mysqli_error()); 
     if ($conn->query($sql) === TRUE) {
       echo "New record created successfully";
