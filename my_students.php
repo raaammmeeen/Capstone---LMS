@@ -9,7 +9,7 @@
                 <div class="span9" id="content">
                      <div class="row-fluid">
 						<div class="pull-right">
-							<a href="add_student.php<?php echo '?id='.$get_id; ?>" class="btn btn-info"><i class="icon-plus-sign"></i> Add Student</a>
+							<!-- <a href="add_student.php<?php echo '?id='.$get_id; ?>" class="btn btn-info"><i class="icon-plus-sign"></i> Add Student</a> -->
 							<a onclick="window.open('print_student.php<?php echo '?id='.$get_id; ?>')"  class="btn btn-success"><i class="icon-list"></i> Student List</a>
 						</div>
 						<?php include('my_students_breadcrums.php'); ?>
