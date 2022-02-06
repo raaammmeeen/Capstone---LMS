@@ -29,7 +29,7 @@
 										LEFT JOIN class_subject_overview ON class_subject_overview.teacher_class_id = teacher_class.teacher_class_id
 										where class_subject_overview.teacher_class_id = '$get_id'")or die(mysqli_error());
 										$row = mysqli_fetch_array($query);
-										$id = $row['class_subject_overview_id'];
+										$id = isset($row['class_subject_overview_id']);
 										$count = mysqli_num_rows($query);
 									if ($count > 0){
 									?>
@@ -39,11 +39,13 @@
 									 <?php } ?>
 								</div>
                             </div>
-                            <div class="block-content collapse in">
+                            <!-- <div class="block-content collapse in">
                                 <div class="span12">
-										<?php echo $row['content']; ?>
+										 <?php 
+										// echo $row['content'];
+										 ?> 
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- /block -->
                     </div>

@@ -57,8 +57,8 @@
 										
 										<?php
 										if (isset($_POST['save'])){
-										$content = $_POST['content'];
-										mysqli_query($conn,"insert into class_subject_overview	(teacher_class_id,content) values('$get_id','$content')")or die(mysqli_error());
+											$content = $_POST['content'];
+											mysqli_query($conn,"insert into class_subject_overview	(teacher_class_id,content) values('$get_id','$content')")or die(mysqli_error());
 										?>
 										<script>
 											window.location = 'subject_overview.php<?php echo '?id='.$get_id; ?>';
