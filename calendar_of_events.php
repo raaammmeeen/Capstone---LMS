@@ -26,8 +26,12 @@
                                    
 								</div>
                                     <p class="ins">1. If you have previously logged into our site enter your Username and Password</p>
-                                    <p class="ins">2. If you have not previously logged into our system then click on </p><a href="">“[New users register here]”</a> <p>found below the Harvard Seal at the bottom of the page.</p>
+                                    <img class="help_1" src="admin/images/login.PNG" alt="">
+                                    <p class="ins">2. If you have not previously logged into our system then click on “[Sign up as student/Sign up as teaher]” in the homepage.</p>
+                                    <p class="ins">3. This will take you to the registration page. Please fill in all the boxes and hit the sign in button.</p>
                                     <img class="help_1" src="admin/images/signup_student.PNG" alt="">
+                                    <img class="help_1" src="admin/images/signup_teacher.PNG" alt="">
+                                    <p class="ins">Your information is already saved by the administrator of the site, once the system checked if you are a valid user you will be directed to the homepage.  This is typically very quick!  Once registered, you can simply login to the webpage for our sample tracking and login with your user information and password.</p>
                                 <div class="span11">
 								   
                                 </div>
