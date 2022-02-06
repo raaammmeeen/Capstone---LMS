@@ -1,8 +1,4 @@
 <?php include('header.php'); ?>
-
-
-
-
 <body id="login">
     <div class="container">
 		<div class="row-fluid">
