@@ -15,7 +15,7 @@
 								<li class="divider-vertical"></li>
 							<li><a href="about.php"><i class="icon-info-sign"></i>&nbsp;About</a></li>
 								<li class="divider-vertical"></li>
-							<li><a href="calendar_of_events.php"><i class="icon-question-sign"></i>&nbsp;Help</a></li>
+							<li><a href="helppage.php"><i class="icon-question-sign"></i>&nbsp;Help</a></li>
 								<li class="divider-vertical"></li>
 							<li><a href="#directories" data-toggle="modal"><i class="icon-phone"></i>&nbsp;Directories</a></li>
 									<?php include('directories.php'); ?>
