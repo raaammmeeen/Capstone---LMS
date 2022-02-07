@@ -51,7 +51,7 @@
                                          <td><?php  echo $row['fname']; ?></td>
                                          <td><?php echo $row['fdesc']; ?></td>                                      
                                          <td width="150">
-										  <form method="post" action="view_submit_assignment.php<?php echo '?id='.$get_id ?>&<?php echo 'post_id='.$id ?>">
+										  <form method="post" action="view_submitted_assignments.php<?php echo '?id='.$get_id ?>&<?php echo 'post_id='.$id ?>">
 										
 										 <button data-placement="bottom" title="View Student who submit Assignment" id="<?php echo $id; ?>view" class="btn btn-success"><i class="icon-folder-open-alt icon-large"></i></button>
 

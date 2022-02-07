@@ -51,7 +51,7 @@
 									?>  
   								<form action="copy_file.php" method="post">
 								
-									<a data-toggle="modal" href="#user_delete" id="delete"  class="btn btn-info" name=""><i class="icon-file"></i> Copy Check item</a>
+									<!-- <a data-toggle="modal" href="#user_delete" id="delete"  class="btn btn-info" name=""><i class="icon-file"></i> Copy Check item</a> -->
   									<table cellpadding="0" cellspacing="0" border="0" class="table" id="">
 									<?php include('move_to_school_year.php'); ?>
 										<thead>

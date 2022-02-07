@@ -43,7 +43,7 @@ $get_id = $_GET['id'];
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-							    <div id="" class="muted pull-left"><h4>Quiz Progress</h4></div>
+							    <div id="" class="muted pull-left"><h4>Quiz List</h4></div>
 							</div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -55,7 +55,7 @@ $get_id = $_GET['id'];
 												<th>Quiz Title</th>
 												<th>Description</th>
 												<th>Quiz Time (In Minutes)</th>
-												<th></th>
+												<th>Score</th>
 												</tr>
 										</thead>
 										<tbody>
@@ -75,6 +75,8 @@ $get_id = $_GET['id'];
 										$row1 = mysqli_fetch_array($query1);
 										$grade = $row1['grade'];
 
+										
+
 									?>          
 										<?php if (false){
 										
@@ -84,10 +86,8 @@ $get_id = $_GET['id'];
 										 <td><?php echo $row['quiz_title']; ?></td>
                                          <td><?php  echo $row['quiz_description']; ?></td>                                     
                                          <td><?php  echo $row['quiz_time'] / 60; ?></td>   
-										 <td></td>                                  
-                                         <td width="200">
-									
-										<b>Already Taken Score <?php echo $grade; ?></b>
+										                            
+                                         <td><?php echo $grade;?>
 						
 										</td>            
 														<script type="text/javascript">

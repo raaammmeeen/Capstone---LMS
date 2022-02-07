@@ -113,7 +113,7 @@
 												<th>Quiz Title</th>
 												<th>Description</th>
 												<th>Quiz Time (In Minutes)</th>
-												<th></th>
+												<th>Score</th>
 												</tr>
 										</thead>
 										<tbody>
@@ -138,9 +138,9 @@
 										 <td><?php echo $row['quiz_title']; ?></td>
                                          <td><?php  echo $row['quiz_description']; ?></td>                                     
                                          <td><?php  echo $row['quiz_time'] / 60; ?></td>                                     
-                                         <td width="200">
+                                         <td>
 									
-										<b>Already Taken Score <?php echo $grade; ?></b>
+									 <?php echo $grade; ?>
 						
 										</td>            
 														<script type="text/javascript">
