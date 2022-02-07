@@ -34,7 +34,7 @@
 						success: function(html){
 						if(html=='true')
 						{
-						$.jGrowl("Welcome to CHMSC Learning Management System", { header: 'Sign up Success' });
+						$.jGrowl("Welcome to BSU-SC Learning Management System", { header: 'Sign up Success' });
 						var delay = 1000;
 							setTimeout(function(){ window.location = 'dasboard_teacher.php'  }, delay);  
 						}else{
