@@ -75,7 +75,7 @@ function insert_data($arr, $conn){
   $last_name = $arr[1];
   $dept_id = $arr[2];
 
-  $sql = "insert into student (firstname,lastname,location,department_id) VALUES('$first_name','$last_name','uploads/NO-IMAGE-AVAILABLE.jpg','$dept_id');";
+  $sql = "insert into teacher (firstname,lastname,location,department_id) VALUES('$first_name','$last_name','uploads/NO-IMAGE-AVAILABLE.jpg','$dept_id');";
   if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
   } else {
