@@ -29,8 +29,35 @@
                                 </form>
 								</div>
                             </div>
+                            <!--Upload Form-->
+
+                            <div class="navbar navbar-inner block-header">
+                              <div class="muted pull-left">Import Teachers</div>
+                                </div>
+                                  <div class="block-content collapse in">
+                                    <div class="span12">
+                                  
+                                    <?php
+                                      if (isset($_SESSION['message']) && $_SESSION['message'])
+                                      {
+                                        printf('<b>%s</b>', $_SESSION['message']);
+                                        unset($_SESSION['message']);
+                                      }
+                                    ?>
+                                    <form method="POST" action="import_departments.php" enctype="multipart/form-data">
+                                      <div class="btn input">
+                                        <input type="file" name="uploadedFile" />
+                                      </div>
+                                      <hr>
+                                      <button type="submit" class="btn btn-info" name="uploadBtn" value="Upload">Upload</button>
+                                    </form>
+                                    </div>
+                                </div>
+                               
+                                
                         </div>
                         <!-- /block -->
+                        
                     </div>
 					
 					<?php

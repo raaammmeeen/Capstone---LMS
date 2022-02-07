@@ -58,7 +58,7 @@
 					if ($count  > 0){
 					while($row = mysqli_fetch_array($query)){
 					$get_id = $row['teacher_class_id'];
-					$id = ($row['notification_id']);
+					$id = $row['notification_id'];
 					
 					
 					$query_yes_read = mysqli_query($conn,"select * from notification_read where notification_id = '$id' and student_id = '$session_id'")or die(mysqli_error());
