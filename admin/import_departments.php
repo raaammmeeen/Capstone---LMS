@@ -83,5 +83,5 @@ function insert_data($arr, $conn){
    
 
 
-header("Location: add_department.php");
+header("Location: department.php");
 ?>
