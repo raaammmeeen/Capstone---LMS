@@ -68,7 +68,7 @@
 						success: function(html){
 							// console.log(html)
 							// return false
-							$.jGrowl("Student Successfully  Added", { header: 'Student Added' });
+							$.jGrowl("Material Successfully Added", { header: 'Material Added' });
 							setTimeout(function(){
 								window.location = 'add_downloadable.php';
 							},2000)
